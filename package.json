@@ -1,0 +1,12 @@
+{
+  "name": "merge-three",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "tsc",
+    "demo": "npm run build && node dist/src/demo.js",
+    "test": "npm run build && node --test test/merge.test.js"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.5"
+  }
+}
