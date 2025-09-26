@@ -26,18 +26,9 @@ npm run build
 ## Run demo
 ```bash
 npm run demo
-# → Merged ascending: [...]
 ```
 
 ## Run tests
-Uses Node’s built-in test runner (no extra libs).
 ```bash
 npm test
 ```
-
-## Approach
-Three pointers:
-- `i` moves from the **end** of `collection_1` (because it’s descending — smallest values are at the end)
-- `j` and `k` move from the **start** of `collection_2` and `collection_3`
-At each step pick the smallest available value and push to the result.
-Time: **O(n1 + n2 + n3)**, Space: **O(n1 + n2 + n3)**.
