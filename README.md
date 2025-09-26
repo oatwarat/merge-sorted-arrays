@@ -7,9 +7,6 @@ TypeScript project that merges three sorted integer arrays into one ascending ar
 - `collection_2` and `collection_3` are **ascending** (min → max)
 - Returns a single **ascending** array
 
-## Requirements
-- Node.js **18+**
-
 ## Setup
 ```bash
 npm install
