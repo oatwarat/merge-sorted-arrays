@@ -1,6 +1,6 @@
-# ts-merge-three
+# Merge Sorted Arrays
 
-A tiny, human-style TypeScript project that merges three sorted integer arrays into one ascending array — without using `.sort()`.
+TypeScript project that merges three sorted integer arrays into one ascending array — without using `.sort()`.
 
 **Contract**
 ```ts
