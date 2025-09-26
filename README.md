@@ -1,6 +1,6 @@
 # Merge Sorted Arrays
 
-TypeScript project that merges three sorted integer arrays into one ascending array — without using `.sort()`.
+TypeScript project that merges three sorted integer arrays into one ascending array — without using sort function.
 
 **Conditions**
 - `collection_1` is **descending** (max → min)
